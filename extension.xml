@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root release="3.0" version="3">
+	<announcement text="Effective NPC v1.0\rby Ryan Hagelstrom 2021" font="emotefont"  icon="EffectiveNPC"/>
+	<properties>
+    	<loadorder>120</loadorder>
+		<name>Feature: Effective NPC</name>
+		<version>1.0</version>
+		<author>Ryan Hagelstrom</author>
+		<description>Allows placement of custom effects on target from NPC sheet</description>
+		<ruleset>
+            	<name>5E</name>
+		</ruleset>
+	</properties>
+	<base>
+		<icon name="EffectiveNPC" file="graphics/icons/Effective-NPC.png"></icon>
+    	<script name="PowerManagerNPC" file="scripts/manager_power_NPC.lua" />
+  	</base>
+</root>
