@@ -2,6 +2,8 @@
 --	  	Copyright © 2021
 --	  	This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 --	  	https://creativecommons.org/licenses/by-sa/4.0/
+--
+-- luacheck: globals onClose onInit customParseEffect
 local parseEffects = nil;
 
 function onInit()
@@ -12,7 +14,7 @@ end
 function customParseEffect(sPowerName, aWords)
     local effects = parseEffects(sPowerName, aWords);
     local sPower = table.concat(aWords, ' '):lower();
-    local bValid = false;
+    local bValid;
     -- Do we have the key phrase "has become"
     if (sPower:match('has become')) then
         -- Find the effect name in our custom effects list
