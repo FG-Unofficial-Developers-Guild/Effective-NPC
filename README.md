@@ -1,7 +1,7 @@
 
 # Effective NPC
 
-[![Build FG Extension](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/create-release.yml/badge.svg)](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/create-release.yml) [![Luacheckrc](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/luacheck.yml/badge.svg)](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/luacheck.yml)
+[![Build FG Extension](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/create-release.yml/badge.svg)](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/create-release.yml) [![Luacheckrc](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/luacheck.yml/badge.svg)](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/luacheck.yml) [![Markdownlint](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/rhagelstrom/Effective-NPC/actions/workflows/markdownlint.yml)
 
 Effective NPC is an 5E extension that enables effects in the custom effects list to be added to the NPC sheet by adding the text "has become customEffectNameTag"
 
